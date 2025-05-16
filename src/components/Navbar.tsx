@@ -39,8 +39,8 @@ const Navbar = () => {
         <div className={`md:flex space-y-4 md:space-y-0 md:space-x-8 ${isMenuOpen ? 'block absolute top-full left-0 w-full bg-white shadow-md p-6 mt-0' : 'hidden'}`}>
           <a onClick={() => handleNavLinkClick('hero')} className="block text-portfolio-dark hover:text-portfolio-red transition-colors cursor-pointer">Home</a>
           <a onClick={() => handleNavLinkClick('about')} className="block text-portfolio-dark hover:text-portfolio-red transition-colors cursor-pointer">About</a>
-          <a onClick={() => handleNavLinkClick('projects')} className="block text-portfolio-dark hover:text-portfolio-red transition-colors cursor-pointer">Projects</a>
-          <a onClick={() => handleNavLinkClick('freelance')} className="block text-portfolio-dark hover:text-portfolio-red transition-colors cursor-pointer">Freelance</a>
+          <a onClick={() => handleNavLinkClick('projects')} className="block text-portfolio-dark hover:text-portfolio-red transition-colors cursor-pointer">Work History</a>
+          <a onClick={() => handleNavLinkClick('freelance')} className="block text-portfolio-dark hover:text-portfolio-red transition-colors cursor-pointer">Projecs</a>
           <a onClick={() => handleNavLinkClick('contact')} className="block text-portfolio-dark hover:text-portfolio-red transition-colors cursor-pointer">Contact</a>
         </div>
         
