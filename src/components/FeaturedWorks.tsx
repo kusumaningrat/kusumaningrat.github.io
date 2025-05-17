@@ -31,31 +31,31 @@ const projects: Project[] = [
     title: "Boer Technology Indonesia",
     year: "2023",
     role: "Cloud Engineer",
-    description: "Careguard Jasa Indonesia is a national private company engaged in the outsourcing of security services.",
-    detailedDescription: "Careguard Jasa Indonesia is a national private company engaged in the outsourcing of security services. With expertise in personnel management, capability, and company credibility, we are ready to implement and serve customers in protecting assets, responding to changing needs, and improving cost-effectiveness by integrating social and cultural aspects.",
+    description: "Boer Technology Indonesia, also known as Btech, is an enterprise cloud system integrator and tech professional solutions provider",
+    detailedDescription: "As a Cloud Engineer at Btech, I was responsible for deploying and managing cloud infrastructure using OpenStack and Ceph for scalable and reliable storage solutions. I automated provisioning and configuration management with Ansible and Terraform, ensuring efficient infrastructure as code practices. I also implemented Kubernetes clusters and integrated monitoring stacks to maintain system health and performance visibility across cloud-native environments.",
     logo: "/image/btech.jpg",
     tools: ["Kubernetes", "Kube Monitoring Stack", "Openstack", "Ceph", "Ansible", "Terraform"]
-  },
+  },  
   {
     id: 3,
     title: "CareGuard Indonesia",
     year: "2025",
     role: "DevOps Engineer",
     description: "Careguard Jasa Indonesia is a national private company engaged in the outsourcing of security services.",
-    detailedDescription: "Careguard Jasa Indonesia is a national private company engaged in the outsourcing of security services. With expertise in personnel management, capability, and company credibility, we are ready to implement and serve customers in protecting assets, responding to changing needs, and improving cost-effectiveness by integrating social and cultural aspects.",
+    detailedDescription: "As a DevOps Engineer at CareGuard Indonesia, I focused on streamlining software delivery and infrastructure reliability. I containerized applications using Docker and optimized service communication through Envoy Proxy. I managed PostgreSQL databases to support internal systems and implemented CI/CD pipelines using GitLab CI/CD, ensuring fast, consistent, and automated deployments across environments.",
     logo: "/image/careguard.png",
     tools: ["Docker", "Envoy Proxy", "PostgreSQL", "Gitlab CI/CD"]
-  },
+  },  
   {
     id: 4,
     title: "Jatis Mobile",
     year: "2025",
     role: "DevOps Engineer",
     description: "Jatis Mobile is a technology solution company, focused on messaging solution and digital distribution.",
-    detailedDescription: "Jatis Mobile is a technology solution company, focused on messaging solution and digital distribution, gaining market experience and insights since 2002",
+    detailedDescription: "As a DevOps Engineer at Jatis Mobile, I focused on managing and maintaining both production and non-production Kubernetes clusters on Tencent Cloud. I implemented Istio for advanced traffic control and service mesh capabilities, and deployed a full Kube Monitoring Stack to ensure system reliability and observability. I also automated infrastructure provisioning and cluster operations using Terraform, Python, and Bash, contributing to streamlined DevOps workflows and improved system resilience.",
     logo: "/image/jatis.jpg",
     tools: ["Docker", "Kubernetes", "Istio as Proxy", "Kube Monitoring Stack", "Tencent Cloud", "Python", "Bash Script", "Terraform"]
-  },
+  }  
 ];
 
 const FeaturedWorks = () => {
